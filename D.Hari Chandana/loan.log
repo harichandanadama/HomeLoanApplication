@@ -1,0 +1,257 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Wed Sep 29 10:52:31 IST 2021<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="http-nio-8583-exec-8 thread">http-nio-8583-exec-8</td>
+<td title="Level">INFO</td>
+<td title="com.cg.customer.service.CustomerServiceImpl category">com.cg.customer.service.CustomerServiceImpl</td>
+<td title="Message">Customer [id=17, name=string, mobile=8987654356, email=string, dob=string, gender=string, nationality=string, aadhar=676545678790, pan=string]:found with an id:17</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Wed Sep 29 11:58:45 IST 2021<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="http-nio-8583-exec-8 thread">http-nio-8583-exec-8</td>
+<td title="Level">INFO</td>
+<td title="com.cg.customer.controller.CustomerController category">com.cg.customer.controller.CustomerController</td>
+<td title="Message">Deleting loan for customerid:17with application id:18</td>
+</tr>
+
+<tr>
+<td>142</td>
+<td title="http-nio-8583-exec-8 thread">http-nio-8583-exec-8</td>
+<td title="Level">INFO</td>
+<td title="com.cg.customer.service.CustomerServiceImpl category">com.cg.customer.service.CustomerServiceImpl</td>
+<td title="Message">Customer [id=17, name=string, mobile=8987654356, email=string, dob=string, gender=string, nationality=string, aadhar=676545678790, pan=string]:found with an id:17</td>
+</tr>
+
+<tr>
+<td>169</td>
+<td title="http-nio-8583-exec-8 thread">http-nio-8583-exec-8</td>
+<td title="Level">INFO</td>
+<td title="com.cg.customer.service.CustomerLoanServiceImpl category">com.cg.customer.service.CustomerLoanServiceImpl</td>
+<td title="Message">No loans applied by customer:id17</td>
+</tr>
+
+<tr>
+<td>47365</td>
+<td title="http-nio-8583-exec-10 thread">http-nio-8583-exec-10</td>
+<td title="Level">INFO</td>
+<td title="com.cg.customer.service.CustomerServiceImpl category">com.cg.customer.service.CustomerServiceImpl</td>
+<td title="Message">20CustomerNotFound Exception</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Wed Sep 29 12:30:09 IST 2021<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="http-nio-8583-exec-8 thread">http-nio-8583-exec-8</td>
+<td title="Level">INFO</td>
+<td title="com.cg.customer.service.CustomerServiceImpl category">com.cg.customer.service.CustomerServiceImpl</td>
+<td title="Message">Customer [id=16, name=Chandana, mobile=9949952866, email=chandana@gmail.com, dob=10-09-1998, gender=female, nationality=Indian, aadhar=833131877996, pan=GCPPD1548R]:found with an id:16</td>
+</tr>
+
+<tr>
+<td>66</td>
+<td title="http-nio-8583-exec-8 thread">http-nio-8583-exec-8</td>
+<td title="Level">INFO</td>
+<td title="com.cg.customer.service.CustomerLoanServiceImpl category">com.cg.customer.service.CustomerLoanServiceImpl</td>
+<td title="Message">loan applied by customer with id:16and application id:18is:LoanApplication [applicationid=18, date=2021-09-27, loanAppliedAmount=500000.0, loanApprovedAmount=0.0, landVerificationApproval=true, financeVerificationApproval=true, adminApproval=false, status=Not approved, id=16]</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Wed Sep 29 12:37:08 IST 2021<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="http-nio-8583-exec-8 thread">http-nio-8583-exec-8</td>
+<td title="Level">INFO</td>
+<td title="com.cg.customer.controller.CustomerController category">com.cg.customer.controller.CustomerController</td>
+<td title="Message">Emi [id=0, loanAmount=500000.0, dueDate=05/NOVEMBER/2021, tenure=5, interestRate=6.0, interestAmount=6000.0, emiAmount=106000.0, loanid=0, loandate=2021-09-29, totalEmiAmount=530000.0]</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Wed Sep 29 12:46:18 IST 2021<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="http-nio-8583-exec-8 thread">http-nio-8583-exec-8</td>
+<td title="Level">INFO</td>
+<td title="com.cg.customer.controller.CustomerController category">com.cg.customer.controller.CustomerController</td>
+<td title="Message">Emi [id=0, loanAmount=500000.0, dueDate=05/NOVEMBER/2021, tenure=5, interestRate=6.0, interestAmount=6000.0, emiAmount=106000.0, loanid=0, loandate=2021-09-29, totalEmiAmount=530000.0]</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Wed Sep 29 12:50:34 IST 2021<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>1</td>
+<td title="http-nio-8583-exec-1 thread">http-nio-8583-exec-1</td>
+<td title="Level">INFO</td>
+<td title="com.cg.customer.controller.CustomerController category">com.cg.customer.controller.CustomerController</td>
+<td title="Message">Emi [loanAmount=500000.0, dueDate=05/NOVEMBER/2021, tenure=5, interestRate=6.0, interestAmount=6000.0, emiAmount=106000.0, loanid=0, loandate=2021-09-29, totalEmiAmount=530000.0]</td>
+</tr>
+
+<tr>
+<td>57098</td>
+<td title="http-nio-8583-exec-9 thread">http-nio-8583-exec-9</td>
+<td title="Level">INFO</td>
+<td title="com.cg.customer.controller.CustomerController category">com.cg.customer.controller.CustomerController</td>
+<td title="Message">Emi [loanAmount=5000000.0, dueDate=05/NOVEMBER/2021, tenure=5, interestRate=6.0, interestAmount=60000.0, emiAmount=1060000.0, loanid=0, loandate=2021-09-29, totalEmiAmount=5300000.0]</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Wed Sep 29 14:26:11 IST 2021<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="http-nio-8583-exec-8 thread">http-nio-8583-exec-8</td>
+<td title="Level">INFO</td>
+<td title="com.cg.customer.controller.CustomerController category">com.cg.customer.controller.CustomerController</td>
+<td title="Message">Emi [loanAmount=5000000.0, dueDate=05/NOVEMBER/2021, tenure=5, interestRate=6.0, interestAmount=60000.0, emiAmount=1060000.0, loanid=0, loandate=2021-09-29, totalEmiAmount=5300000.0]</td>
+</tr>
